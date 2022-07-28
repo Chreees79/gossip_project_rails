@@ -120,10 +120,4 @@ Something to get into the mood [here](https://www.youtube.com/watch?v=NUuRX3JYCH
 [Un Dev A La Mer](http://www.devalamer.fr/)
 
 Give us a ⭐ Star on GitHub — it helps!
- 
-
-
-### Authors Details:
-
-
 
