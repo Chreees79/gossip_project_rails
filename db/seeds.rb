@@ -7,7 +7,6 @@ require 'faker'
 #   City.create!(name: Faker::Games::Pokemon.location, zip_code: Faker::Address.zip_code)
 # end
 
-
 # CREATION OF USERS --------------------------------------
 
 # 10.times do
@@ -39,9 +38,9 @@ require 'faker'
 =begin 
  20.times do
   content_message = Faker::Games::StreetFighter.quote
-   recipient_message = User.all.sample
+  recipient_message = User.all.sample
   rand(1..5).times do
-     sender_message = User.all.sample
+    sender_message = User.all.sample
     unless recipient_message == sender_message
       PrivateMessage.create(content: content_message, sender: sender_message, recipient: recipient_message)
     end
