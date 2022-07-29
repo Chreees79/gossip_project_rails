@@ -4,8 +4,9 @@ require 'faker'
 # CREATION OF CITIES --------------------------------------
 
 # 10.times do
-#   City.create!(name: Faker::Games::Pokemon.location)
+#   City.create!(name: Faker::Games::Pokemon.location, zip_code: Faker::Address.zip_code)
 # end
+
 
 # CREATION OF USERS --------------------------------------
 
@@ -35,7 +36,7 @@ require 'faker'
 
 # CREATION OF PRIVATE MESSAGES --------------------------------------
 
-
+=begin 
  20.times do
   content_message = Faker::Games::StreetFighter.quote
    recipient_message = User.all.sample
@@ -46,7 +47,7 @@ require 'faker'
     end
   end
 end
-
+=end
 
 # CREATION OF COMMENTS --------------------------------------
 
