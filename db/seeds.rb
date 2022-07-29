@@ -38,16 +38,15 @@ require 'faker'
 =begin 
  20.times do
   content_message = Faker::Games::StreetFighter.quote
-  recipient_message = User.all.sample
+  sender_message = User.all.sample
   rand(1..5).times do
-    sender_message = User.all.sample
+    recipient_message = User.all.sample
     unless recipient_message == sender_message
       PrivateMessage.create(content: content_message, sender: sender_message, recipient: recipient_message)
     end
   end
 end
 =end
-
 # CREATION OF COMMENTS --------------------------------------
 
 # 20.times do
